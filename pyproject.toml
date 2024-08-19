@@ -1,0 +1,19 @@
+[project]
+name = "SimulatorAPI"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "SaferSephy", email = "t.vandervelden3@student.han.nl"},
+]
+dependencies = [
+    "fastapi>=0.112.1",
+    "uvicorn>=0.30.6",
+    "numpy>=2.1.0",
+]
+requires-python = "==3.11.*"
+readme = "README.md"
+license = {text = "MIT"}
+
+
+[tool.pdm]
+distribution = false
